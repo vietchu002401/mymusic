@@ -1,0 +1,32 @@
+.back-to-top{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    z-index: 1000;
+    border: 2px solid black;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none;
+    }
+}
+
+.back-to-top:hover{
+    background-color: white;
+}
